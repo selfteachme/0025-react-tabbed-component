@@ -1,0 +1,28 @@
+.tabs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  border-bottom: 2px solid blue;
+}
+
+.tabs > li {
+  padding: 0.5em 1em;
+  margin: 0 1em;
+}
+
+.current {
+  background: white;
+  color: blue;
+  font-weight: bold;
+  border: 2px solid blue;
+  border-bottom: 0;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  position: relative;
+  top: 2px;
+}
+
+.content {
+  padding: 1em 2em;
+}
